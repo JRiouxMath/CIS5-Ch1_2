@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   helloWorld.cpp
+ * Author: Jeanine
+ *
+ * Created on February 25, 2017, 10:03 PM
+ */
+
+#include <cstdlib>
+#include<iostream>
+
+using namespace std;
+
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+    cout<<"Hello World!"<<endl;
+    cout<<"Now I've written two programs in C++"<<endl;//I can be creative now
+    cout<<"Der spring is sprung"<<endl;
+    cout<<"Der grass is riz"<<endl;
+    cout<<"I wonder where dem boidies is."<<endl;
+    return 0;
+}
+
