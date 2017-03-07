@@ -1,0 +1,32 @@
+/*
+ * Chapter 2 Challenge Project 2
+ *  Sales Prediction 
+The East Coast sales division of a company generates 58 percent of total sales. Based 
+on that percentage, write a program that will predict how much the East Coast division 
+will generate if the company has $8.6 million in sales this year. 
+ */
+
+/* 
+ * File:   main.cpp
+ * Author: Jeanine
+ *
+ * Created on February 28, 2017, 6:23 PM
+ */
+
+#include <cstdlib>
+#include<iostream>
+
+using namespace std;
+ const float ECPerc=0.58; //East Coast typical percentage of total sales.
+ float ECSales, CompSales=8.6e6;//East Coast predicted sales amount and Company sales amount.
+
+/*
+ * 
+ */
+int main() {
+    ECSales=ECPerc*CompSales;
+    cout<<"East Coast sales division is predicted to make\n$";
+    cout<<ECSales<<" in sales this year";
+    return 0;
+}
+
