@@ -1,0 +1,33 @@
+/*
+Average of Values 
+To get the average of a series of values, you add the values up and then divide the sum 
+by the number of values. Write a program that stores the following values in five different 
+ *  variables:  28,  32,  37,  24,  and  33.  The  program  should  first  calculate  the  sum 
+of these five variables and store the result in a separate variable named  
+sum. Then, the program  should divide the sum variable  by  5  to  get  the  average.  Display the average 
+on the screen. 
+ */
+
+/* 
+ * File:   main.cpp
+ * Author: Jeanine
+ *
+ * Created on February 28, 2017, 6:41 PM
+ */
+
+#include <cstdlib>
+#include<iostream>
+
+using namespace std;
+
+double FirstNum=28, SecNum=32, ThirdNum=37, FourthNum=24, FifthNum=33; //The five values to be averaged
+double Quantity=5, QtyAveraged;//How many to be averaged and the end result.
+/*
+ * 
+ */
+int main() {
+    QtyAveraged=(FirstNum+SecNum+ThirdNum+FourthNum+FifthNum)/Quantity; 
+    cout<<"The average of the initialized values is "<<QtyAveraged;
+    return 0;
+}
+
